@@ -1,0 +1,4 @@
+# dsh-retro-arcade — DSH bundle patch
+- insert:
+    - id: dsh-retro-arcade
+      name: "dsh-retro-arcade"

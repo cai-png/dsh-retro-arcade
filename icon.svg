@@ -1,0 +1,7 @@
+<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Arcade joystick">
+  <circle cx="18" cy="9.4" r="4.6" fill="#f2c246"/>
+  <path d="M18 13.6v9.2" stroke="#f2c246" stroke-width="3.4" stroke-linecap="round"/>
+  <path d="M10.4 23.4c0-1.2 1-2.2 2.2-2.2h10.8c1.2 0 2.2 1 2.2 2.2v3.4c0 1.2-1 2.2-2.2 2.2H12.6c-1.2 0-2.2-1-2.2-2.2v-3.4z" fill="#f2c246"/>
+  <circle cx="13.4" cy="25.1" r="1.35" fill="#2a2418"/>
+  <circle cx="22.6" cy="25.1" r="1.35" fill="#2a2418"/>
+</svg>

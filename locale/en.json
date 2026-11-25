@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Retro arcade",
+    "description": "Adds a 街机厅 (arcade) button that opens a CRT-styled cabinet with four playable FC classics on one canvas: Super Mario, Contra, Bomberman and Lode Runner. Arrow keys or WASD move, Z jumps or confirms, X shoots or drops a bomb, Enter restarts, Esc closes.",
+    "detail": "docs/DETAIL.md"
+  }
+}

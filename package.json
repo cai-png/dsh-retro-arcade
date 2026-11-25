@@ -1,0 +1,65 @@
+{
+  "name": "dsh-retro-arcade",
+  "version": "1.0.0",
+  "description": "Four FC classics — Super Mario, Contra, Bomberman and Lode Runner — in one CRT arcade cabinet inside DeepSeek Harness. · 小霸王街机厅：四款 FC 经典共用一个画布。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "arcade",
+    "retro",
+    "fc",
+    "nes",
+    "games",
+    "mario",
+    "contra",
+    "bomberman",
+    "lode-runner"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "icon": "icon.svg",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "lib",
+    "public",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cai-png/dsh-retro-arcade.git"
+  },
+  "homepage": "https://github.com/cai-png/dsh-retro-arcade#readme",
+  "bugs": {
+    "url": "https://github.com/cai-png/dsh-retro-arcade/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
+
