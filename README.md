@@ -4,7 +4,7 @@
 
 Four FC classics in one DeepSeek Harness plugin — Super Mario, Contra, Bomberman and Lode Runner share a single 640×400 canvas behind a 街机厅 button at the bottom right.
 
-![超级玛丽](docs/screenshot-mario.png)
+![超级玛丽](assets/screenshot-mario.png)
 
 | 游戏 | 玩法要点 |
 |---|---|
@@ -15,7 +15,7 @@ Four FC classics in one DeepSeek Harness plugin — Super Mario, Contra, Bomberm
 
 | 魂斗罗 | 淘金者 |
 |---|---|
-| ![魂斗罗](docs/screenshot-contra.png) | ![淘金者](docs/screenshot-loderunner.png) |
+| ![魂斗罗](assets/screenshot-contra.png) | ![淘金者](assets/screenshot-loderunner.png) |
 
 ## 操作
 
@@ -59,3 +59,4 @@ public/games/*.js   四个游戏模块（纯 Canvas 2D，无依赖）
 ## 许可
 
 MIT。游戏玩法致敬任天堂《超级马力欧兄弟》、科乐美《魂斗罗》、Hudson《炸弹人》、Broderbund《淘金者》；本项目不包含任何原版素材、ROM 或反汇编代码。
+
